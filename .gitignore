@@ -8,3 +8,9 @@ __pycache__/
 
 /data
 .DS_Store
+
+!output/checkpoint3.html
+!output/cp2_final_model.joblib
+!output/cp2_predictor_columns.csv
+!output/cp2_model_comparison.csv
+!output/cp2_ridge_coefficients.csv
