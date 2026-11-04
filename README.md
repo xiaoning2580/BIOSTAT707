@@ -31,7 +31,7 @@ pixi run --locked checkpoint3
 
 Set-a records and outcomes must be available at `data/set-a/` and `data/Outcomes-a.txt`. Set-b and set-c records must be available at `data/physionet.org/files/challenge-2012/1.0.0/set-b/` and `set-c/`, with `Outcomes-b.txt` and `Outcomes-c.txt` in their parent directory.
 
-The analysis loads the committed Checkpoint 2 model, predictor list, comparison table, and coefficient table from `output/`. It reconstructs the set-a reference data from the raw records without retraining the model. Running Checkpoint 2 first is not required.
+The analysis loads the committed Checkpoint 2 model, predictor list, comparison table, and coefficient table from `output/`. It reconstructs the set-a reference data from the raw records without retraining the model.
 
 The command executes `checkpoint3.ipynb` and generates `output/checkpoint3.html`, containing the written report, tables, figures, and results.
 
